@@ -1,0 +1,70 @@
+/* Estilos base */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f9fafd;
+}
+
+.dog-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 5% auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background-image: url('https://c8.alamy.com/compes/rbdfhc/huellas-y-huesos-sobre-un-fondo-amarillo-claro-patron-sin-fisuras-rbdfhc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dog-form h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.dog-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+.dog-form input[type="text"] {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 90%;
+    transition: all 0.3s ease;
+}
+
+.dog-form input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.dog-form-submit-button {
+    background-color: #8B4513;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.dog-form-submit-button:hover {
+    background-color: #A0522D;
+}
+
+/* Estilos para los mensajes de error */
+.error-message {
+    color: red;
+}
+

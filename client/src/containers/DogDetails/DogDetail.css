@@ -1,0 +1,79 @@
+.dog-details {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-image: url('https://c8.alamy.com/compes/rbdfhc/huellas-y-huesos-sobre-un-fondo-amarillo-claro-patron-sin-fisuras-rbdfhc.jpg');
+    background-size: cover;
+    width: 60%; 
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-md-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.col-md-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 15px 0 0 15px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #c79a67; /* Color café claro */
+    border: none;
+    color: white;
+    padding: 8px 16px; /* Ajuste del relleno según tus necesidades */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Tamaño de fuente, ajustar según tus necesidades */
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombreado ligero para darle un aspecto de relieve */
+}
+
+.btn-primary:hover {
+    background-color: #b88246; /* Color café oscuro al pasar el ratón */
+    color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombreado más profundo al pasar el ratón */
+}
+
+
+.image-container {
+    width: 100%;
+    height: 300px; /* Establece la altura que deseas para el contenedor */
+    display: flex;
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    overflow: hidden; /* En caso de que la imagen sea más grande que el contenedor, esconder el exceso */
+}
+
+.image-container img {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor si es más grande */
+    max-height: 100%; /* La imagen se ajustará a la altura del contenedor si es más alta */
+    display: block;
+    margin: 0 auto;
+}
+
